@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="false" async="false" name="Setpath">
+
+<AssignTo createNew="false" type="request"></AssignTo>
+    <FaultRules/>
+    <Properties/>
+   
+
+
+ 
+ <Set>
+   <Path>/res</Path>
+   
+       <Payload>
+       
+     
+       
+    </Payload>
+   </Set>
+
+   
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    
+</AssignMessage>

@@ -1,0 +1,12 @@
+<AssignMessage name="assignPayload">
+<AssignTo type="response" createNew="true"/>
+<IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+
+<Set>
+    <Payload contentType="application/json">
+        {response.content}
+    </Payload>
+    <StatusCode>{response.status.code}</StatusCode>
+</Set>
+
+</AssignMessage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables enabled="true" continueOnError="false" async="false" name="serviceCalloutExtractResponse">
+    <DisplayName>serviceCalloutExtractResponse</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">serviceCalloutResponse</Source>
+    <VariablePrefix />
+    <JSONPayload>        
+        <Variable type="string" name="latitude">
+            <JSONPath>$.terminalLocationList.terminalLocation.currentLocation.latitude</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>
+

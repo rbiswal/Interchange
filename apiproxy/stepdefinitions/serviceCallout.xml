@@ -1,0 +1,7 @@
+<ServiceCallout name="serviceCallout">
+    <Request clearpayload="false" variable="serviceCalloutRequest"></Request>
+    <Response variable="authcode" />
+    <HTTPTargetConnection>
+        <URL>http://interchange-test.apigee.net/aobo/token/</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

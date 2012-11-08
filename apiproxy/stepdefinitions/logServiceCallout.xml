@@ -1,0 +1,5 @@
+<ServiceCallout name="logServiceCallout">
+    <HTTPTargetConnection>
+        <URL>http://111.93.155.252:8000/postLogs?logMessage=IX%20Sending%20Request%20To%20ATT_SDE</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

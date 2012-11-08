@@ -1,0 +1,6 @@
+<JavaCallout name="javaCallOut">
+   <ResourceURL>java://ExtractParams.jar</ResourceURL>
+   <ClassName>com.apigee.ExtractValues</ClassName>
+</JavaCallout>
+
+

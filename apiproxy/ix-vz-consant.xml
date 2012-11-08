@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="15" name="ix-vz-consant">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1352210283681</CreatedAt>
+    <CreatedBy>orgAdmin</CreatedBy>
+    <Description></Description>
+    <DisplayName>ix-vz-consant</DisplayName>
+    <LastModifiedAt>1352210283681</LastModifiedAt>
+    <LastModifiedBy>orgAdmin</LastModifiedBy>
+    <Policies>
+        <Policy>OverwriteMessage</Policy>
+        <Policy>serviceCallout</Policy>
+        <Policy>AddHttpvariablesAsHeader</Policy>
+        <Policy>QuotaPolicy</Policy>
+        <Policy>setResponseCode</Policy>
+        <Policy>serviceCalloutExtractResponse</Policy>
+        <Policy>assignNotSupportedMDNPayload</Policy>
+        <Policy>Setpath</Policy>
+        <Policy>AddAccessToken</Policy>
+        <Policy>removesuffix</Policy>
+        <Policy>assignPayload</Policy>
+        <Policy>javaCallOut</Policy>
+        <Policy>logServiceCallout</Policy>
+        <Policy>GetCarrier</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>py://setResponseCode.py</Resource>
+        <Resource>py://removesuffix.py</Resource>
+        <Resource>jsc://targetrequest.js</Resource>
+        <Resource>jsc://GetCarrier.js</Resource>
+        <Resource>jsc://OverwriteMessage.js</Resource>
+        <Resource>java://expressions-1.0.0.jar</Resource>
+        <Resource>java://my_javacallout.jar</Resource>
+        <Resource>java://ExtractParams.jar</Resource>
+        <Resource>java://message-flow-1.0.0.jar</Resource>
+        <Resource>js://targetrequest.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,14 @@
+<AssignMessage name="assignNotSupportedMDNPayload">
+<AssignTo type="response" createNew="true"/>
+<IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+
+<Set>
+    <Payload contentType="application/json">
+        {
+			"status": "Non Supported MDN"
+		}
+    </Payload>
+    <StatusCode>400</StatusCode>
+</Set>
+
+</AssignMessage>

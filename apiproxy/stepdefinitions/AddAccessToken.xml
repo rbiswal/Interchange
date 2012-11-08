@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="false" async="false" name="AddAccessToken" >
+    <FaultRules/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+   <Add>
+	<Headers>
+        <Header name="Authorization">BEARER 760f648f489d19a3ef332ac8aef258c0</Header>
+		<!--<Header name="Accept">application/json</Header>-->
+    </Headers>
+    </Add>
+</AssignMessage>
